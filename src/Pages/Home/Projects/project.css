@@ -1,27 +1,31 @@
-.cardItem{
+.details{
+    text-align: justify;
+}
+.card-hover{
     overflow: hidden;
-    
+    background-color: #3A3A3A;
+    color: #ddd;
+    font-size:larger;
+}
+.card-hover:hover{
+    background-color: #FFC107;
+    color:#000;
+    overflow: hidden;
+    transition: ease-out .3s;
 }
 
-.cardBody{
-    color: #fff;
-    transition:ease-in .3s;
+.card-hover:hover .title{
+    font-weight: 700;
+    border-radius: 5px;
+    
 }
-.cardBody:hover{
+.hr{
     background-color: #FFAC00;
-    border:none;
-    color:#000;
-    overflow: hidden;
 }
-.cardBody:hover .hr{
-   
-    background-color:#000
-   
+.card-hover:hover .hr{
+    background-color: #000;
 }
-.listItem{
-    color: #6ec5b8
-}
-.cardBody:hover .listItem{
-    color:#000;
+.card-hover:hover .listItem{
+    font-weight: 700;
     
 }
