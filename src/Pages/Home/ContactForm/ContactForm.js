@@ -24,7 +24,7 @@ export default function ContactForm() {
     };
 
     return (
-        <Container className="pt-5 mb-5 text-light text-start" id="contactForm">
+        <Container className="py-5 text-light text-start" id="contactForm">
             <div className="pt-2 pb-4">
                 <h2 className="heading text-center">Contact</h2>
             </div>

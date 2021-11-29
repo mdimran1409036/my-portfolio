@@ -9,21 +9,30 @@ import css from '../../../skills/css.png'
 import node from '../../../skills/nodejs.png'
 import express from '../../../skills/express-js.png'
 import mongodb from '../../../skills/mongo.png'
-import mysql from '../../../skills/'
-import mongodb from '../../../skills/mongo.png'
-import mongodb from '../../../skills/mongo.png'
-import mongodb from '../../../skills/mongo.png'
-import mongodb from '../../../skills/mongo.png'
-import mongodb from '../../../skills/mongo.png'
-import mongodb from '../../../skills/mongo.png'
+import mysql from '../../../skills/mysql.png'
+import php from '../../../skills/php.png'
+import laravel from '../../../skills/laravel.png'
+import tailwind from '../../../skills/taiwind.png'
+import material from '../../../skills/material ui.png'
+import native from '../../../skills/native.png'
+import github from '../../../skills/github.png'
+import vscode from '../../../skills/vscode.png'
+import heroku from '../../../skills/heroku.png'
+import firebase from '../../../skills/firebase.png'
+import netlify from '../../../skills/netlify.png'
+
 
 
 const Skills = () => {
     return (
-        <Container id="skills">
+        <Container id="skills" className="pt-5">
+            <div className="pt-2 pb-4">
+                <h2 className="text-white heading">Skills</h2>
+            </div>
             <Row>
                 <Col xs={12} >
                     <Skill
+                        
                         title="Frontend"
                         language={
                             [
@@ -35,6 +44,7 @@ const Skills = () => {
                             ]
                         }
                     />
+
                     <Skill
                         title="Backend"
                         language={

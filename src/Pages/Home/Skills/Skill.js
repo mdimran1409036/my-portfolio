@@ -3,16 +3,16 @@ import { Col, Row } from 'react-bootstrap';
 
 const Skill = ({ title, language }) => {
     return (
-        <Row className="text-light">
+        <Row className="text-light mb-5 d-flex align-items-center">
             <Col xs={12} md={2}>
                 <h2 className="text-start">{title}</h2>
             </Col>
-            <Col xs={12} md={10} className="d-flex justify-content-between">
+            <Col xs={12} md={10} className="d-flex align-items-center flex-wrap ps-4">
                 {
                     language.map(item => {
                         return (
-                            <div className="d-flex flex-column">
-                                <img src={item.img} width="80" alt={item.name} />
+                            <div className="d-flex flex-column me-5 mb-3">
+                                <img src={item.img} width="60" alt={item.name} />
                                 <h4>{item.name}</h4>
                             </div>
                         )
