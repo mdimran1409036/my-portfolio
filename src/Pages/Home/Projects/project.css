@@ -1,0 +1,27 @@
+.cardItem{
+    overflow: hidden;
+    
+}
+
+.cardBody{
+    color: #fff;
+    transition:ease-in .3s;
+}
+.cardBody:hover{
+    background-color: #FFAC00;
+    border:none;
+    color:#000;
+    overflow: hidden;
+}
+.cardBody:hover .hr{
+   
+    background-color:#000
+   
+}
+.listItem{
+    color: #6ec5b8
+}
+.cardBody:hover .listItem{
+    color:#000;
+    
+}
