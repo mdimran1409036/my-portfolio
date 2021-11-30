@@ -159,12 +159,8 @@
             "Emailjs",
             "Particlejs"
         ],
-        "details": "A portfolio website to showcase my skills and experience",
-        "description": [
-            "A single page application featuring jewelry products, order page, reviews, and contact form",
-            "User authentication is required to access user role-based dashboard where a logged-in user can cancel an order and leave a review, Admin can manage user roles, products, and orders.",
-            "CRUD operation, JWT authentication, and Heroku deployment were performed on the server-side."
-        ],
+        "details": "This portfolio website to showcase my skills and experience",
+        "description": [],
         "links": [
             {
                 "link": "Github Client",

@@ -21,7 +21,8 @@ const Project = ({ projectId, title, details, tech, links, credentials, images }
         <Col xs={12} md={6} className="pb-4 ">
             <Card className="h-100 card-hover" style={images?.length > 0 ? styleCursor : unstyleCursor} onClick={images?.length > 0 ? () => handleProjectDetails(projectId) : console.log('no description found')}>
                 <Card.Body>
-                    <Card.Title className="title h1 p-2 w-75 mx-auto text-uppercase">{title}</Card.Title>
+                    <Card.Title
+                        className="title h1 p-2 w-75 mx-auto text-uppercase">{title}</Card.Title>
                     <div className=" w-25 mx-auto hr" style={{ height: "2px" }}></div>
                     <div className="d-flex flex-wrap justify-content-center my-2">
                         {
@@ -58,13 +59,15 @@ const Project = ({ projectId, title, details, tech, links, credentials, images }
                         </Button>)
                     }
                 </Card.Body>
-                <Card.Footer
-                    as={Link}
-                    className="text-decoration-none footerCard border-top"
-                    to={`/projects/${projectId}`}
-                >
-                    Project Details
-                </Card.Footer>
+                {
+                    images?.length > 0 && <Card.Footer
+                        as={Link}
+                        className="text-decoration-none footerCard border-top"
+                        to={`/projects/${projectId}`}
+                    >
+                        Project Details
+                    </Card.Footer>
+                }
 
             </Card>
         </Col >
