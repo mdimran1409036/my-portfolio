@@ -18,8 +18,6 @@ const Skill = ({ title, language }) => {
                         )
                     })
                 }
-
-
             </Col>
         </Row>
     );

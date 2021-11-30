@@ -5,13 +5,12 @@ import { FaGithub } from 'react-icons/fa';
 import { SiGmail } from 'react-icons/si';
 import { HashLink } from 'react-router-hash-link';
 import './Banner.css'
-import Particles from 'react-tsparticles';
-import particlesConfig from "../../../Particle/particlesConfig.json";
+
 const Banner = () => {
 
     return (
         <div className="bg-dark px-5 pt-5">
-            <Particles params={particlesConfig} className="App-particles__container" />
+            
             <Container className="pt-5">
                 <Row>
                     <Col xs={12} md={6}>

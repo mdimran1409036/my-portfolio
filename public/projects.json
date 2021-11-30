@@ -8,13 +8,28 @@
             "MongoDB",
             "Material UI",
             "Firebase",
-            "Heroku"
+            "Heroku",
+            "React icons",
+            "React hook form ",
+            "Axios",
+            "Dotenv",
+            "Cors"
         ],
         "details": "A Jewelry shop offers jewelry items to users. In order to place an order, a user needs to be authenticated. After login, the user will find a dashboard. He can see the order status and cancel the order. Also, the user can review with rating and contact to the shop owner using a contact form. An admin can manage users role, orders, and product.",
         "description": [
-            "A single page application featuring jewelry products, order page, reviews, and contact form",
-            "User authentication is required to access user role-based dashboard where a logged-in user can cancel an order and leave a review, Admin can manage user roles, products, and orders.",
-            "CRUD operation, JWT authentication, and Heroku deployment were performed on the server-side."
+            "A single page application featuring jewelry products, order page, user reviews, and contact form",
+            "User authentication is required to access user role-based dashboard",
+            "If the uses intended to go any private route (i.e. place order) without login, They will be redirected to login.",
+            "After login the user will be redirected to the page where he intended to go",
+            "A logged-in user can cancel an order and leave a review with star rating",
+            "Admin can manage user roles, products, and orders.",
+            "Deployed to firebase",
+            "Collections were created(products, users, reviews, orders, contacts ) in the backend",
+            "CRUD operation performed for different api's",
+            "JWT token used to protect the api for make admin route",
+            "Deployed to heroku",
+            "Mobile responsive",
+            "Admin access email: admin@admin.com password: 123456"
         ],
         "credentials": {
             "email": "admin@admin.com",
@@ -54,13 +69,25 @@
             "MongoDB",
             "Firebase",
             "Bootstrap",
-            "Heroku"
+            "Heroku",
+            "firebase",
+            "axios",
+            "react-router",
+            "dotenv",
+            "cors"
         ],
         "details": "A holiday event booking website that offers different events. In order to purchase an event user needs to be authenticated, And authenticated user can manage orders(CRUD operation) and create team member. All CRUD API's created using express.js ",
         "description": [
-            "A holiday event booking mobile responsive website that offers different events.",
-            "User authentication is required to place an order, manage orders(CRUD operation) and create team members.",
-            "CRUD operation and Heroku deployment were performed on the server-side."
+            "A holiday event booking website which offers different events",
+            "A user can place order",
+            "Unauthenticated user only can see the services, home page",
+            "An authenticated user can place order using their information",
+            "An authenticated user can add service, team member, place order, change order status, delete order , delete services and other crud operation",
+            " User will be redirected to the page after authentication",
+            "Mongodb database connected with the server in the backened",
+            "Create, Read, Delete and Update operation performed",
+            "Deployed in heroku",
+            "Mobile responsive"
         ],
         "links": [
             {
@@ -90,13 +117,19 @@
         "tech": [
             "React",
             "Firebase",
-            "React bootstrap"
+            "React bootstrap",
+            "Hash Link",
+            "React Router DOM"
         ],
         "details": "A service website that provides different services for animals. A user will get necessary information about the service in service details page. The pricing table is also displayed.",
         "description": [
             "A service website shows services and pricing",
-            "A user can learn more about the services.",
-            "Firebase authentication enabled using Email/Password and Google."
+            "Custom hook and Context API is used to make available the users to all the routed",
+            "Google login implemented as well as traditional email and password login and registration",
+            "Firebase authentication enabled using Email/Password and Google.",
+            "Private route is implemented for contact, pricing and service details page",
+            "After reloading the page on a private route, the user was redirected to the login page.",
+            "Mobile responsive"
         ],
         "links": [
             {

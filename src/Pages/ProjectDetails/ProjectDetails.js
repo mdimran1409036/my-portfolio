@@ -1,5 +1,5 @@
 import React from 'react';
-import { Col, Container, Row, Button } from 'react-bootstrap';
+import { Col, Container, Row } from 'react-bootstrap';
 import { useParams } from 'react-router';
 import useProjects from '../../hooks/useProjects';
 import { GoPrimitiveDot } from 'react-icons/go';
@@ -31,10 +31,10 @@ const ProjectDetails = () => {
                             {
                                 project?.description.map(item =>
                                     <div
-                                        className="mb-4 fw-bolder d-flex align-items-start"
+                                        className="mb-2  d-flex align-items-start"
                                     >
                                         <GoPrimitiveDot className="me-4" />
-                                        <p style={{ textAlign: "justify" }}>
+                                        <p style={{ textAlign: "left" }}>
                                             {item}
                                         </p>
 
@@ -47,7 +47,7 @@ const ProjectDetails = () => {
                             <hr className="w-50 mb-4" />
                             <div className="d-flex flex-wrap mb-4 ">
                                 {
-                                    project?.tech?.map(item => <p className=" text-light span  mb-3 pe-2 fw-bold"><TiTick className="h4 me-2" />{item}</p>)
+                                    project?.tech?.map(item => <p className="text-light span  mb-3 pe-2 "><TiTick className="h4 me-2" />{item}</p>)
                                 }
                             </div>
 

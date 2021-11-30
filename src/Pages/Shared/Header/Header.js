@@ -19,14 +19,6 @@ const Header = () => {
                     <Navbar.Brand
                         as={HashLink}
                         to="/#app"
-                    // style={{
-                    //     fontFamily: 'mustardo',
-                    //     letterSpacing: "5px",
-
-                    //     fotWeight: "100",
-
-                    // }}
-
                     >
                         Md Imran Hossain</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -35,10 +27,10 @@ const Header = () => {
                             <Nav.Link as={HashLink} to="/#projects">Projects</Nav.Link>
                             <Nav.Link as={HashLink} to="/#skills">Skills</Nav.Link>
                             <Nav.Link as={HashLink} to="/#education">Education</Nav.Link>
-                            <Nav.Link as={HashLink} to="/#contactForm">Contact Me</Nav.Link>
+                            <Nav.Link as={HashLink} to="/#contactForm">Contact</Nav.Link>
+                            <Nav.Link as={Link} to="/about-me">About Me</Nav.Link>
                             <Nav.Link as={Link} to="/blogs">Blog</Nav.Link>
-                            <Nav.Link target="_blank" href="https://drive.google.com/file/d/1x0r8YeI1cGs_7Gb_aG6KCGntuifxDB1A/view?usp=sharing">Download Resume</Nav.Link>
-
+                            <Nav.Link target="_blank" href="https://drive.google.com/file/d/1x0r8YeI1cGs_7Gb_aG6KCGntuifxDB1A/view?usp=sharing">Resume</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
