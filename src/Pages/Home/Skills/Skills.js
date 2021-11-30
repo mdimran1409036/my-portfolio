@@ -12,9 +12,8 @@ import mongodb from '../../../skills/mongo.png'
 import mysql from '../../../skills/mysql.png'
 import php from '../../../skills/php.png'
 import laravel from '../../../skills/laravel.png'
-import tailwind from '../../../skills/taiwind.png'
+import tailwind from '../../../skills/tailwind.svg'
 import material from '../../../skills/material ui.png'
-import native from '../../../skills/native.png'
 import github from '../../../skills/github.png'
 import vscode from '../../../skills/vscode.png'
 import heroku from '../../../skills/heroku.png'
@@ -32,7 +31,7 @@ const Skills = () => {
             <Row>
                 <Col xs={12} >
                     <Skill
-                        
+
                         title="Frontend"
                         language={
                             [
@@ -79,10 +78,9 @@ const Skills = () => {
                         title="Comfortable"
                         language={
                             [
-                                { name: 'React native', img: native },
                                 { name: 'PHP', img: php },
                                 { name: 'Laravel', img: laravel },
-                                { name: 'Taiwind CSS', img: tailwind },
+                                { name: 'Tailwind CSS', img: tailwind },
                                 { name: 'Material UI', img: material }
                             ]
                         }

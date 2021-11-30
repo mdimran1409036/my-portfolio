@@ -50,13 +50,13 @@ const Banner = () => {
 
                             </div>
                             <div className="mt-5 d-flex justify-content-start">
-                                <Button className="me-4 bg-warning rounded border-0 text-light">
+                                <Button className="btn-1 me-4  rounded border-0 text-light">
                                     <Nav.Link
                                         className="text-dark"
                                         target="_blank"
                                         href="https://drive.google.com/file/d/1x0r8YeI1cGs_7Gb_aG6KCGntuifxDB1A/view?usp=sharing">My Resume</Nav.Link>
                                 </Button>
-                                <Button className="me-4 bg-warning rounded border-0 text-light">
+                                <Button className="btn-1  me-4  rounded border-0 text-light">
                                     <Nav.Link className="text-dark" as={HashLink} to="#contactForm">Contact Me</Nav.Link>
                                 </Button>
                             </div>

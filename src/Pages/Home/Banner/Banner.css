@@ -5,3 +5,15 @@
 .description{
     line-height: 40px;
 }
+.btn-1{
+    background-color: #ddd;
+}
+.btn-1:hover{
+    background-color: #FFC107;
+    transition: ease-in-out .4s;
+   
+}
+.btn-1:hover a{
+    font-weight: bold;
+    transition: ease-in-out .4s;
+}

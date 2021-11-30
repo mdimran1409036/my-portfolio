@@ -11,9 +11,9 @@ const Skill = ({ title, language }) => {
                 {
                     language.map(item => {
                         return (
-                            <div className="d-flex flex-column me-5 mb-3">
+                            <div className="d-flex flex-column ms-4 me-5 mb-3">
                                 <img src={item.img} width="60" alt={item.name} />
-                                <h4>{item.name}</h4>
+                                <h4 className="pt-3">{item.name}</h4>
                             </div>
                         )
                     })

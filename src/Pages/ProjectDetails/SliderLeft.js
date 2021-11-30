@@ -24,8 +24,7 @@ const SliderLeft = ({ project }) => {
     }
     return (
         <div>
-            <div>
-
+            <div className="px-3">
                 <div className="d-flex justify-content-center px-5 mb-4">
                     <button className="arrow me-5 px-4 rounded-pill border-0 text-dark fw-bolder" onClick={() => gotoPrev()}>Prev</button>
                     <button className="arrow me-5 px-4 rounded-pill border-0 text-dark fw-bolder" onClick={() => gotoNext()}>Next</button>

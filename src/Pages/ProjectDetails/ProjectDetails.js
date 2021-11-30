@@ -25,7 +25,9 @@ const ProjectDetails = () => {
                         </SliderLeft>
                     </Col>
                     <Col xs={12} md={4}>
-                        <div className="pt-5 ps-4">
+                        <div className="ps-4">
+                            <h4 className="text-start fw-bold">Features</h4>
+                            <hr className="w-50 mb-4" />
                             {
                                 project?.description.map(item =>
                                     <div
@@ -40,11 +42,15 @@ const ProjectDetails = () => {
                                 )
                             }
                         </div>
-                        <div className="d-flex flex-wrap mb-4 ps-4" >
+                        <div className="ps-4">
+                            <h4 className="text-start fw-bold ">Used Technology</h4>
+                            <hr className="w-50 mb-4" />
+                            <div className="d-flex flex-wrap mb-4 ">
+                                {
+                                    project?.tech?.map(item => <p className=" text-light span  mb-3 pe-2 fw-bold"><TiTick className="h4 me-2" />{item}</p>)
+                                }
+                            </div>
 
-                            {
-                                project?.tech?.map(item => <p className=" text-light span  mb-3 pe-2 fw-bold"><TiTick className="h4 me-2" />{item}</p>)
-                            }
                         </div>
                         <div className="ps-4">
 
