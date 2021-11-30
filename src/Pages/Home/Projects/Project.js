@@ -2,12 +2,24 @@ import React from 'react';
 import { Card, Col, Button } from 'react-bootstrap';
 import './project.css'
 import { GoPrimitiveDot } from 'react-icons/go';
+import { useNavigate } from 'react-router';
 
 
-const Project = ({ title, details, tech, links, credentials }) => {
+const Project = ({ projectId, title, details, tech, links, credentials, images }) => {
+    const navigate = useNavigate()
+    const handleProjectDetails = () => {
+        navigate(`/projects/${projectId}`)
+    }
+    const styleCursor = {
+        cursor: "pointer"
+    }
+    const unstyleCursor = {
+        cursor: "auto"
+    }
+    console.log(images);
     return (
         <Col xs={12} md={6} className="pb-4 ">
-            <Card className="h-100 card-hover">
+            <Card className="h-100 card-hover" style={images?.length > 0 ? styleCursor : unstyleCursor} onClick={images?.length > 0 ? () => handleProjectDetails(projectId) : console.log('no description found')}>
                 <Card.Body>
                     <Card.Title className="title p-2 w-75 mx-auto text-uppercase">{title}</Card.Title>
                     <div className=" w-25 mx-auto hr" style={{ height: "2px" }}></div>
@@ -35,9 +47,9 @@ const Project = ({ title, details, tech, links, credentials }) => {
                 <Card.Body>
                     {
                         links.map(link => <Button
-                            className="bg-light border-dark me-2 mb-2">
+                            className="btn-2 border-dark me-2 mb-2">
                             <Card.Link
-                                className="text-decoration-none text-dark"
+                                className="text-decoration-none"
                                 href={link.url}
                                 target="_blank"
                             >
@@ -46,23 +58,9 @@ const Project = ({ title, details, tech, links, credentials }) => {
                         </Button>)
                     }
                 </Card.Body>
-            </Card>
-        </Col>
-        // <Card style={{ background: "rgba(255, 255, 255, 0.1)" }} className="h-100 cardItem">
-        //     <Card.Body className="cardBody" >
-        //         <Card.Title className="text-uppercase">{title}</Card.Title>
-        //         <hr className="w-25 mx-auto text-warning hr" />
-        //         <div className="d-flex flex-wrap">
-        //             {
-        //                 tech.map((item, index) => <li key={index} className="listItem me-1 list-unstyled"> <GoPrimitiveDot className="me-1" />{item} </li>)
-        //             }
-        //         </div>
-        //         <p className="mt-4 text-justify">
-        //             {details}
-        //         </p>
 
-        //     </Card.Body>
-        // </Card>
+            </Card>
+        </Col >
     );
 };
 

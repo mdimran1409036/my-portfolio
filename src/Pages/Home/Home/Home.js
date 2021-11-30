@@ -7,7 +7,7 @@ import ContactForm from '../ContactForm/ContactForm';
 
 const Home = () => {
     return (
-        <div style={{ backgroundColor: '#242424' }}>
+        <div>
             <Banner></Banner>
             <Projects></Projects>
             <Skills></Skills>

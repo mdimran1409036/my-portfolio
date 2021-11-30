@@ -16,11 +16,14 @@ const Projects = () => {
                 <Row>
                     {
                         projects.map(project => <Project
+                            projectId={project.id}
                             title={project.title}
                             details={project.details}
                             tech={project.tech}
                             links={project.links}
-                            credentials={project.credentials} />)
+                            credentials={project.credentials}
+                            images={project.images}
+                        />)
                     }
                 </Row>
             </Container>

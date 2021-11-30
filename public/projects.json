@@ -11,6 +11,11 @@
             "Heroku"
         ],
         "details": "A Jewelry shop offers jewelry items to users. In order to place an order, a user needs to be authenticated. After login, the user will find a dashboard. He can see the order status and cancel the order. Also, the user can review with rating and contact to the shop owner using a contact form. An admin can manage users role, orders, and product.",
+        "description": [
+            "A single page application featuring jewelry products, order page, reviews, and contact form",
+            "User authentication is required to access user role-based dashboard where a logged-in user can cancel an order and leave a review, Admin can manage user roles, products, and orders.",
+            "CRUD operation, JWT authentication, and Heroku deployment were performed on the server-side."
+        ],
         "credentials": {
             "email": "admin@admin.com",
             "password": "123456"
@@ -28,6 +33,16 @@
                 "link": "Github Server",
                 "url": "https://github.com/mdimran1409036/niche-website-server-side"
             }
+        ],
+        "images": [
+            "https://i.ibb.co/pXZZwy0/homepage.png",
+            "https://i.ibb.co/f9dJy0R/login.png",
+            "https://i.ibb.co/7468ZC0/dashboard.png",
+            "https://i.ibb.co/Kjf7H3k/manage-Products.png",
+            "https://i.ibb.co/F6921YQ/manage-User-Role.png",
+            "https://i.ibb.co/2qzNRzV/add-Product.png",
+            "https://i.ibb.co/sCGnYgZ/user-Order.png",
+            "https://i.ibb.co/7NrJZCM/user-Review.png"
         ]
     },
     {
@@ -42,6 +57,11 @@
             "Heroku"
         ],
         "details": "A holiday event booking website that offers different events. In order to purchase an event user needs to be authenticated, And authenticated user can manage orders(CRUD operation) and create team member. All CRUD API's created using express.js ",
+        "description": [
+            "A holiday event booking mobile responsive website that offers different events.",
+            "User authentication is required to place an order, manage orders(CRUD operation) and create team members.",
+            "CRUD operation and Heroku deployment were performed on the server-side."
+        ],
         "links": [
             {
                 "link": "Live Website Link",
@@ -55,6 +75,13 @@
                 "link": "Github Server",
                 "url": "https://github.com/mdimran1409036/tourism--website-server-side"
             }
+        ],
+        "images": [
+            "https://i.ibb.co/qj3Ygfc/homepage.png",
+            "https://i.ibb.co/ZThstw7/my-Orders-Page.png",
+            "https://i.ibb.co/kXGMHkM/add-Sevice.png",
+            "https://i.ibb.co/Z24WG5Z/login.png",
+            "https://i.ibb.co/Mcfrtc6/manage-Service.png"
         ]
     },
     {
@@ -66,6 +93,11 @@
             "React bootstrap"
         ],
         "details": "A service website that provides different services for animals. A user will get necessary information about the service in service details page. The pricing table is also displayed.",
+        "description": [
+            "A service website shows services and pricing",
+            "A user can learn more about the services.",
+            "Firebase authentication enabled using Email/Password and Google."
+        ],
         "links": [
             {
                 "link": "Live Website Link",
@@ -75,6 +107,13 @@
                 "link": "Github Client",
                 "url": "https://github.com/mdimran1409036/healthcare-related-website-"
             }
+        ],
+        "images": [
+            "https://i.ibb.co/X4mk3fZ/homepage.png",
+            "https://i.ibb.co/26n7FQC/login-page.png",
+            "https://i.ibb.co/rkxt2Cw/pricing-page.png",
+            "https://i.ibb.co/jbjPtfW/register.png",
+            "https://i.ibb.co/rt3y8ys/contact-Us.png"
         ]
     },
     {
@@ -88,11 +127,12 @@
             "Particlejs"
         ],
         "details": "A portfolio website to showcase my skills and experience",
+        "description": [
+            "A single page application featuring jewelry products, order page, reviews, and contact form",
+            "User authentication is required to access user role-based dashboard where a logged-in user can cancel an order and leave a review, Admin can manage user roles, products, and orders.",
+            "CRUD operation, JWT authentication, and Heroku deployment were performed on the server-side."
+        ],
         "links": [
-            {
-                "link": "Live Website Link",
-                "url": "https://mdimranhossain.netlify.app/"
-            },
             {
                 "link": "Github Client",
                 "url": "https://github.com/mdimran1409036/my-portfolio"

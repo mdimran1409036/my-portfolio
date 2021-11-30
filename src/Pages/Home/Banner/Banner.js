@@ -7,24 +7,11 @@ import { HashLink } from 'react-router-hash-link';
 import './Banner.css'
 import Particles from 'react-tsparticles';
 import particlesConfig from "../../../Particle/particlesConfig.json";
-
 const Banner = () => {
 
-    // const particlesInit = (main) => {
-    //     console.log(main);
-
-    //     // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
-    // };
-
-    // const particlesLoaded = (container) => {
-    //     console.log(container);
-    // };
     return (
-
         <div className="bg-dark px-5 pt-5">
             <Particles params={particlesConfig} className="App-particles__container" />
-
-
             <Container className="pt-5">
                 <Row>
                     <Col xs={12} md={6}>
@@ -67,7 +54,7 @@ const Banner = () => {
                                     <Nav.Link
                                         className="text-dark"
                                         target="_blank"
-                                        href="https://drive.google.com/file/d/1x0r8YeI1cGs_7Gb_aG6KCGntuifxDB1A/view?usp=sharing">Download Resume</Nav.Link>
+                                        href="https://drive.google.com/file/d/1x0r8YeI1cGs_7Gb_aG6KCGntuifxDB1A/view?usp=sharing">My Resume</Nav.Link>
                                 </Button>
                                 <Button className="me-4 bg-warning rounded border-0 text-light">
                                     <Nav.Link className="text-dark" as={HashLink} to="#contactForm">Contact Me</Nav.Link>
